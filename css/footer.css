@@ -1,0 +1,39 @@
+ footer {
+            background: #050505;
+            padding: 40px 20px;
+            border-top: 1px solid rgba(16, 185, 129, 0.2);
+        }
+
+        .footer-content {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #10b981;
+        }
+
+        .footer-logo-icon {
+            width: 28px;
+            height: 28px;
+           
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer-text {
+            color: #808080;
+            font-size: 13px;
+
+        }
