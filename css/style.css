@@ -11,7 +11,7 @@
             overflow-x: hidden;
         }
 
-     /* ========== HERO SECTION ========== */
+     /*  HERO SECTION  */
         .hero-section {
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -287,7 +287,8 @@
             font-size: 15px;
         }
 
-        /* ========== CONTACT SECTION ========== */
+
+        /*  CONTACT SECTION  */
         .contact-section {
             padding: 100px 20px;
             background: linear-gradient(180deg, #0a0a0a 0%, #0f2f25 100%);
