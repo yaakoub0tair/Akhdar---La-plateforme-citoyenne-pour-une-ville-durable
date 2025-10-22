@@ -5,24 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Éducation - GreenPulse</title>
     <link rel="stylesheet" href="css/education.css">
-  
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-   
 </head>
 <body>
-    <!-- ========== NAVBAR ========== -->
-     <nav>
+
+    <nav>
         <div class="nav-logo">
             <div class="nav-logo-icon"><img src="images/Vector.png" alt=""></div>
             <span>GreenPulse</span>
         </div>
         <div class="nav-menu">
-            <a href="#accueil">Accueil</a>
+            <a href="index.html">Accueil</a>
             <a href="#nouveaute">Nouveauté</a>
             <a href="#services">Participer</a>
             <a href="#projets">Projets & Initiatives</a>
-            <a href="#education">Éducation</a>
+            <a href="education.html">Éducation</a>
         </div>
         <div class="nav-actions">
             <div class="nav-social">
@@ -32,8 +30,7 @@
             </div>
         </div>
     </nav>
-   
-    <!-- ========== HERO SECTION ========== -->
+
     <section class="hero-section">
         <div class="hero-badge">
             Apprenez à protéger la planète, un geste à la fois.
@@ -43,7 +40,7 @@
             <div class="hero-text">
                 <h1 class="hero-title">Découvrez Des Conseils Simples, Des Vidéos Éducatives Et Des Quiz Pour Devenir Un Éco-Citoyen Actif</h1>
                 <p class="hero-description">
-                    Chez GreenPulse, nous croyons que chaque citoyen peut faire la différence. Apprendrе à adopter des gestes écoresponsables, c'est la clé pour un avenir durable. À travers des ressources simples et inspirantes, découvrez comment agir dès aujourd'hui pour protéger notre planète et inspirer votre entourage.
+                    Chez GreenPulse, nous croyons que chaque citoyen peut faire la différence. Apprendre à adopter des gestes écoresponsables, c'est la clé pour un avenir durable. À travers des ressources simples et inspirantes, découvrez comment agir dès aujourd'hui pour protéger notre planète et inspirer votre entourage.
                 </p>
             </div>
             <div class="hero-image">
@@ -52,15 +49,14 @@
         </div>
     </section>
 
-    <!-- ========== CARDS SECTION ========== -->
     <section class="cards-section">
         <div class="section-header">
             <h2 class="section-title">Les Gestes Simples Pour Un Avenir Durable</h2>
             <div class="section-underline"></div>
             <div class="cards-categories">
-                <span class="category-badge">Réduire l'alimentation gaspillée</span>
-                <span class="category-badge">Économiser l'eau au quotidien</span>
-                <span class="category-badge">Économiser l'eau au quotidien</span>
+                <p class="category-badge">Réduire l'alimentation gaspillée</p>
+                <p class="category-badge">Économiser l'eau au quotidien</p>
+                <p class="category-badge">Économiser l'énergie</p>
             </div>
         </div>
 
@@ -72,17 +68,17 @@
                 <div class="card-content">
                     <h3 class="card-title">Apprenez à trier vos déchets</h3>
                     <p class="card-description">
-                        Découvrez comment l'impact environnemental et la favoriser le recyclage. Chaque geste compte !
+                        Découvrez comment réduire l'impact environnemental et favoriser le recyclage. Chaque geste compte !
                     </p>
                 </div>
             </div>
 
             <div class="info-card">
                 <div class="card-image">
-                    <img src="images/Rectangle 73.png" alt="Réutilisation">
+                    <img src="images/Rectangle 73.png" alt="Économiser l'eau">
                 </div>
                 <div class="card-content">
-                    <h3 class="card-title">Formez le robinet lorsque vous vous lavez les mains ou la vaisselle</h3>
+                    <h3 class="card-title">Fermez le robinet lorsque vous vous lavez les mains ou la vaisselle</h3>
                     <p class="card-description">
                         Apprenez comment réutiliser des matériaux et éviter le gaspillage dans notre vie de tous les jours.
                     </p>
@@ -103,7 +99,6 @@
         </div>
     </section>
 
-    <!-- ========== CTA SECTION ========== -->
     <section class="cta-section">
         <div class="cta-container">
             <div class="cta-content">
@@ -113,33 +108,38 @@
         </div>
     </section>
 
-    <!-- ========== QUIZ SECTION ========== -->
     <section class="quiz-section" id="quiz">
         <div class="quiz-container">
+
             <div class="quiz-content">
-                <h2 class="quiz-title">Question:</h2>
+                <h2 class="quiz-title">Question :</h2>
                 <p class="quiz-subtitle">Quel geste aide le plus à réduire les déchets ?</p>
+
                 <div class="quiz-options">
                     <div class="quiz-option">
-                        <div class="quiz-checkbox"></div>
-                        <span class="quiz-label">Recycler ses déchets</span>
+                        <input type="checkbox" id="opt1" class="quiz-input">
+                        <label for="opt1" class="quiz-label">Recycler ses déchets</label>
                     </div>
+
                     <div class="quiz-option">
-                        <div class="quiz-checkbox"></div>
-                        <span class="quiz-label">Recycler ses déchets</span>
+                        <input type="checkbox" id="opt2" class="quiz-input">
+                        <label for="opt2" class="quiz-label">Composter les restes alimentaires</label>
                     </div>
+
                     <div class="quiz-option">
-                        <div class="quiz-checkbox"></div>
-                        <span class="quiz-label">Recycler ses déchets</span>
+                        <input type="checkbox" id="opt3" class="quiz-input">
+                        <label for="opt3" class="quiz-label">Acheter des produits recyclés</label>
                     </div>
                 </div>
             </div>
+
             <div class="quiz-image-wrapper">
                 <img src="images/alard.png" alt="Quiz écologique" class="quiz-image">
             </div>
+
         </div>
     </section>
-     <!-- ========== FOOTER ========== -->
+
     <footer>
         <div class="footer-content">
             <div class="footer-logo">
@@ -147,10 +147,8 @@
                 <span>GreenPulse</span>
             </div>
             <p class="footer-text">Site Web YouCode pour la protection de la nature</p>
-
         </div>
     </footer>
 
-  
 </body>
 </html>
