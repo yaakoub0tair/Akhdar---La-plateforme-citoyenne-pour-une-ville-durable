@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    position: relative;
+    position: sticky;
     display: flex;
     justify-content: center;
     top: 60px;
