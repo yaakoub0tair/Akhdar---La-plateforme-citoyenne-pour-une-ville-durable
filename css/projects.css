@@ -14,50 +14,12 @@ body{
   flex-direction: column;
 }
 
-header{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    top: 60px;
-}
-nav{
-    display: flex;
-    background-color: #172726;
-    width: 1144px;
-    height: 103px;
-    justify-content: center;
-    gap: 250px;
-    align-items: center;
-    border-radius: 50px;
-    border: 10px white;
-}
 
-.nav-toggle {
-    display: none;
-}
-.nav-toggle-label {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    gap: 5px;
-}
-.nav-links {
-    display: flex;
-    gap: 15px;
-}
-.nav-toggle-label span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background: greenyellow;
-}
 
-a{
-    color: white;
-    margin-right: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-}
+
+
+
+
 .title{
     margin-top: 150px;
     margin-bottom: 40px;
