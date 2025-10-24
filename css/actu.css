@@ -596,6 +596,7 @@ margin-top: 20px;
 @media (max-width: 768px) {
   .titre{
     padding-right: 250px;
+    width: 100px;
     
   }
   .contenu {
