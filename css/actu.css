@@ -5,17 +5,14 @@ main{
      min-height: 100vh;
 }
 .titre{
-    border-bottom: solid #B2EF1B;
-    width: 750px;
+   border-bottom: solid #B2EF1B 7px;
+    width: 1500px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    min-height: 280px;
-    padding-top: 150px;
     font-family: 'Inter';
     color: white;
-
-
+   
 }
 .tit1{
    
@@ -599,6 +596,7 @@ margin-top: 20px;
 @media (max-width: 768px) {
   .titre{
     padding-right: 250px;
+     width: 100px;
     
   }
   .contenu {
