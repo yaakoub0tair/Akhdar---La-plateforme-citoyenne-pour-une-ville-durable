@@ -13,10 +13,9 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   flex-direction: column;
 }
-
-
 .title{
-    margin-top: 60px;
+    margin-top: 150px;
+    margin-bottom: 40px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -51,7 +50,7 @@ h1{
     justify-content: center;
 }
 .pic svg{
-    width: 510px;
+    width: 100%;
     height: 300px;
     
 }
@@ -59,7 +58,7 @@ h1{
     margin-left:0px ;
 }
 .resycle{
-    width: 600px;
+    width: 30%;
     height: 300px;
     background-color: #074A33;
     border-radius: 0px 15px 15px 0px;
@@ -78,20 +77,21 @@ h3{
 }
 .texts1 p{
     margin-top: 65px;
-    
+    width: 60%;
 }
 .texts2 p{
     margin-top: 65px;
+    width: 60%;
 }
 .lone1{
     height: 1px;
-    width: 300px;
+    width: 100%;
     background-color: black;
-    margin-top: 43px;
+    margin-top: 24px;
 }
 .lone2{
     height: 1px;
-    width: 300px;
+    width: 100%;
     background-color: black;
 }
 
@@ -100,8 +100,42 @@ h3{
 }
 
 
+.filter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
 
 .filter-container{
     text-align: center;
-    margin-top: 30px;
+    display: flex;
+    width: 390px;
+    align-items: center;
+   border: solid greenyellow;
+   padding: 10px 50px;
+    margin-top: 60px;
+    height: 50px;
+    border-radius: 50px;
+    
+}
+.filter-container a{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 15px;
+}
+.filter-container a:hover{
+    color: greenyellow;
+}
+
+@media (max-width: 1100px) {
+   
+    .firstbar, .secondbar, .thirdbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .resycle{
+        border-radius: 15px;
+        width: 80%;
+    }
 }
